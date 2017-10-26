@@ -19,5 +19,66 @@ With that strategy, developers and contributors will have independed access and 
 
 - Requests and bug report should be made via [Github Issues](https://github.com/NeuBIAS/neubias.github.io/issues)
 
+
+----
+
+
+# How to blog
+
+- TUTORIAL UNDER DEVELOPMENT. 
+
+	For now, you can send me the text and I will publish.
+
+
+
+----
+
+# How to Develop
+
+This instructions are based on Linux/OSX. 
+
+1. Clone the repository:
+
+```
+$ git clone https://github.com/NeuBIAS/neubias.github.io.git
+```
+
+You now should have a the folder 'neubias.github.io' available containing all the documents.
+
+
+Navigate inside the folder and get the gulp packages that will be used:
+
+
+```
+$ npm install
+```
+
+
+#### Gulp
+
+The following Gulp pipelines are available:
+
+
+``` sh
+$ gulp
+```
+
+Compile and launch the website
+
+``` sh
+$ gulp clean
+```
+Remove clean all generated files, including the website. It runs before also when building to deploy.
+
+
+``` sh
+$ gulp
+```
+
+
+
+
+
+
 Thanks!
 Victor
