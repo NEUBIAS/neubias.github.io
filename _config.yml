@@ -27,11 +27,18 @@ excerpt_separator: <!-- more -->
 # to override the default setting.
 exclude:
   - examples
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - LICENSE
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - src
+  - node_modules
+  - Gemfile
+  - Rakefile
+  - package.json
+  - Gulpfile
+  - website.todo
+  - otherBlogs
+  - gulp_examples
+  - gulp
+
 
