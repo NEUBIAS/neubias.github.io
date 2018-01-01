@@ -88,6 +88,12 @@ p {
   margin-bottom: 1rem;
 }
 
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
 ol,ul {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -247,6 +253,30 @@ h6,.h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+.display-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 hr {
@@ -1085,6 +1115,13 @@ a > code {
   color: #868e96;
 }
 
+.nav-fill .nav-item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -1635,6 +1672,26 @@ a > code {
   border-color: #007bff;
 }
 
+.list-group-item-success {
+  color: #155724;
+  background-color: #c3e6cb;
+}
+
+a.list-group-item-success,button.list-group-item-success {
+  color: #155724;
+}
+
+a.list-group-item-success:focus,a.list-group-item-success:hover,button.list-group-item-success:focus,button.list-group-item-success:hover {
+  color: #155724;
+  background-color: #b1dfbb;
+}
+
+a.list-group-item-success.active,button.list-group-item-success.active {
+  color: #fff;
+  background-color: #155724;
+  border-color: #155724;
+}
+
 .list-group-item-info {
   color: #0c5460;
   background-color: #bee5eb;
@@ -1696,6 +1753,22 @@ a.list-group-item-dark.active,button.list-group-item-dark.active {
   }
 }
 
+.align-top {
+  vertical-align: top !important;
+}
+
+.align-text-top {
+  vertical-align: text-top !important;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+a.bg-success:focus,a.bg-success:hover,button.bg-success:focus,button.bg-success:hover {
+  background-color: #1e7e34 !important;
+}
+
 .bg-info {
   background-color: #17a2b8 !important;
 }
@@ -1712,23 +1785,39 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
   background-color: #1d2124 !important;
 }
 
+.d-none {
+  display: none !important;
+}
+
 .d-inline {
   display: inline !important;
 }
 
 @media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+
   .d-sm-inline {
     display: inline !important;
   }
 }
 
 @media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+
   .d-md-inline {
     display: inline !important;
   }
 }
 
 @media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+
   .d-lg-inline {
     display: inline !important;
   }
@@ -1778,6 +1867,48 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+@media (min-width: 576px) {
+  .float-sm-left {
+    float: left !important;
+  }
+
+  .float-sm-none {
+    float: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .float-md-left {
+    float: left !important;
+  }
+
+  .float-md-none {
+    float: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .float-lg-left {
+    float: left !important;
+  }
+
+  .float-lg-none {
+    float: none !important;
+  }
+}
+
+.position-absolute {
+  position: absolute !important;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -2576,26 +2707,50 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
   }
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .text-center {
   text-align: center !important;
 }
 
 @media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+
   .text-sm-center {
     text-align: center !important;
   }
 }
 
 @media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+
   .text-md-center {
     text-align: center !important;
   }
 }
 
 @media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
   .text-lg-center {
     text-align: center !important;
   }
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+a.text-success:focus,a.text-success:hover {
+  color: #1e7e34 !important;
 }
 
 .text-info {
@@ -2740,11 +2895,51 @@ a.text-dark:focus,a.text-dark:hover {
   }
 }
 
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.fa-stack-1x,.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
 .fa-search:before {
   content: "";
+}
+
+.fa-envelope-o:before {
+  content: "";
+}
+
+.fa-user:before {
+  content: "";
+}
+
+.fa-remove:before {
+  content: "";
 }
 
 .fa-home:before {
@@ -2755,8 +2950,20 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
+.fa-tag:before {
+  content: "";
+}
+
+.fa-tags:before {
+  content: "";
+}
+
 .fa-font:before {
   content: "";
+}
+
+.fa-bold:before {
+  content: "";
 }
 
 .fa-text-height:before {
@@ -2765,6 +2972,10 @@ a.text-dark:focus,a.text-dark:hover {
 
 .fa-text-width:before {
   content: "";
+}
+
+.fa-align-left:before {
+  content: "";
 }
 
 .fa-align-center:before {
@@ -2783,6 +2994,10 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
+.fa-info-circle:before {
+  content: "";
+}
+
 .fa-share:before {
   content: "";
 }
@@ -2791,12 +3006,16 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
+.fa-asterisk:before {
+  content: "";
+}
+
 .fa-calendar:before {
   content: "";
 }
 
-.fa-folder:before {
-  content: "";
+.fa-random:before {
+  content: "";
 }
 
 .fa-comments:before {
@@ -2807,12 +3026,16 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-facebook:before {
+.fa-facebook-f:before,.fa-facebook:before {
   content: "";
 }
 
 .fa-github:before {
   content: "";
+}
+
+.fa-globe:before {
+  content: "";
 }
 
 .fa-group:before {
@@ -2839,6 +3062,10 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
+.fa-envelope:before {
+  content: "";
+}
+
 .fa-linkedin:before {
   content: "";
 }
@@ -2847,12 +3074,20 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-github-alt:before {
-  content: "";
+.fa-user-md:before {
+  content: "";
 }
 
-.fa-folder-o:before {
-  content: "";
+.fa-circle-o:before {
+  content: "";
+}
+
+.fa-circle:before {
+  content: "";
+}
+
+.fa-github-alt:before {
+  content: "";
 }
 
 .fa-code:before {
@@ -2877,6 +3112,22 @@ a.text-dark:focus,a.text-dark:hover {
 
 .fa-toggle-up:before {
   content: "";
+}
+
+.fa-bitbucket:before {
+  content: "";
+}
+
+.fa-toggle-left:before {
+  content: "";
+}
+
+.fa-wordpress:before {
+  content: "";
+}
+
+.fa-google:before {
+  content: "";
 }
 
 .fa-header:before {
@@ -2905,6 +3156,18 @@ a.text-dark:focus,a.text-dark:hover {
 
 .fa-fa:before {
   content: "";
+}
+
+.fa-user-circle:before {
+  content: "";
+}
+
+.fa-user-circle-o:before {
+  content: "";
+}
+
+.fa-user-o:before {
+  content: "";
 }
 
 .fa-s15:before {

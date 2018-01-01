@@ -2,7 +2,7 @@
 layout: post
 title:  "Sixth post"
 date:   2016-02-06
-
+categories: education writing
 
 # Author.
 author: Airraya Group

@@ -1,68 +1,72 @@
- <h1>Blog Posts</h1>
-  <ul class="posts">
-  {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+<!-- Page Content -->
+    <div class="container">
 
-<!-- post styling -->
+        <div class="row">
 
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <div class="content">
-    {{ post.content }}
-  </div>
-  <aside class="details">posted on the <time>{{ post.date | date_to_string }}</time></aside>
-{% endfor %}
+            <!-- Blog Post Content Column -->
+                <!-- Blog Post -->
+                	<div class="post-list" style="list-style-type: none;">
+						{% for post in paginator.posts %} 	
+							<h2>
+								<img class="title-image" src="{{ "/img/dna.png" | prepend: site.baseurl }}"/>
+								<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+							</h2>
+							<div class="author" style="margin-top: -10px;">Posted by
+								<i class="fa fa-user"></i><a href="http://www.airrayagroup.com/"> {{ post.author}}</a>
+								<span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+							</div>
+							<div class="excerpt">{{ post.excerpt }}</div>
+							<div class="readmore" style="float: left;">
+								{% if post.content | post_contains_excerpt_tag %}
+									<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+								{% endif %}
+							</div>								
+					</div>
+					<hr>
+						
+					<div class="post-list" style="list-style-type: none;">			
+						{% endfor %} 
+					</div>
 
-<!-- pagination (a page1 folder isn't created by Jekyll.
-To avoid 404s when going to the first page it must be
-specified separately) -->
+					
+				<div class="pagination">
+					  <ul>
+						{% if paginator.previous_page %}
 
-<div class="pagination">
-  <ul>
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <li>
-          <a href="/">&laquo;</a>
-        </li>
-      {% else %}
-        <li>
-          <a href="/page{{paginator.previous_page}}">&laquo;</a>
-        </li>
-      {% endif %}
-    {% else %}
-      <li class="disabled">
-        <a href="#">&laquo;</a>
-      </li>
-    {% endif %}
-    {% if paginator.page == 1 %}
-      <li class="active">
-        <a href="#">1</a>
-      </li>
-    {% else %}
-      <li>
-        <a href="/">1</a>
-      </li>
-    {% endif %}
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-        <li class="active">
-          <a href="#">{{count}}</a>
-        </li>
-      {% else %}
-        <li>
-          <a href="/page{{count}}">{{count}}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    {% if paginator.next_page %}
-      <li>
-        <a href="/page{{paginator.next_page}}">&raquo;</a>
-      </li>
-    {% else %}
-      <li class="disabled">
-        <a href="#">&raquo;</a>
-      </li>
-    {% endif %}
-  </ul>
-</div>
+						  {% if paginator.previous_page == 1 %}
+							<li><a href="">Previous</a></li>
+						  {% else %}
+							<li><a href="page{{ paginator.previous_page }}">Previous</a></li>
+						  {% endif %}
+
+						{% else %}
+						  <li><span class="disabled">Previous</span></li>
+						{% endif %}
+
+						{% if paginator.page == 1 %}
+						  <li><span class="active">1</span></li>
+						{% else %}
+						  <li><a href="">1</a></li>
+						{% endif %}
+
+						{% for count in (2..paginator.total_pages) %}
+
+						  {% if count == paginator.page %}
+							<li><span class="active">{{ count }}</span></li>
+						  {% else %}
+							<li><a href="/page{{ count }}">{{ count }}</a></li>
+						  {% endif %}
+						{% endfor %}
+
+						{% if paginator.next_page %}
+						  <li><a href="/page{{ paginator.next_page }}">Next</a></li>
+						{% else %}
+						  <li><span class="disabled">Next</span></li>
+						{% endif %}
+					  </ul>
+					</div>
+
+        </div>
+        <!-- /.row -->
+       <hr>
+   </div>

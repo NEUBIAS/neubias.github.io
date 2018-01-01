@@ -2,6 +2,8 @@
 layout: post
 title:  "Tenth post"
 date:   2016-02-09
+category: technology
+tags: [css, html]
 
 # Author.
 author: Airraya Group
