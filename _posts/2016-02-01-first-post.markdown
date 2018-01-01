@@ -2,9 +2,7 @@
 layout: post
 title:  "first post"
 date:   2016-02-01
-categories: jekyll technology
-permalink: welcome-to-jekyll
-tags: css html hosting openshift wordpress
+
 
 # author
 author: Airraya Group

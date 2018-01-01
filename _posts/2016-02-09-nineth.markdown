@@ -2,8 +2,7 @@
 layout: post
 title:  "nineth post"
 date:   2016-02-09
-category: technology
-tags: [journey, jekyll]
+
 
 # Author.
 author: Airraya Group

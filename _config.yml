@@ -17,7 +17,7 @@ plugins:
 # Build settings
 markdown: kramdown
 paginate: 3
-paginate_path: 'page:num/'
+paginate_path: "page:num/"
 comments: true
 excerpt_separator: <!-- more -->
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to NeuBIAS blog!"
 date:   2017-10-23 16:22:29 -0200
-categories: blog update
+
 ---
 
 

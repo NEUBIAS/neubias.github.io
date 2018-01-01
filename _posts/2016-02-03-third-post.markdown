@@ -2,7 +2,6 @@
 layout: post
 title:  "Third post"
 date:   2016-02-03
-categories: science
 
 # Author.
 author: Airraya Group

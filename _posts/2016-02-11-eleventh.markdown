@@ -2,8 +2,7 @@
 layout: post
 title:  "Eleventh post"
 date:   2016-02-11
-category: technology
-tags: [css, html]
+
 
 # Author.
 author: Airraya Group

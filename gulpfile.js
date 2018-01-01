@@ -151,7 +151,7 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('watch', function() {
-    gulp.watch(config.watch.pages,  gulp.series('jekyll-build') );
+    gulp.watch(config.watch.pages,  gulp.series('build-clean') );
     gulp.watch(config.watch.javascript, gulp.series(scripts));
     gulp.watch(config.watch.sass, gulp.series(styles));
     // gulp.watch(config.watch.images, gulp.series('copy', browserSync.reload));

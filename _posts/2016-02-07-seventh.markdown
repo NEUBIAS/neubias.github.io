@@ -2,8 +2,7 @@
 layout: post
 title:  "Seventh post"
 date:   2016-02-07
-category: technology
-tags: [octopress, jekyll]
+
 
 # Author.
 author: Airraya Group

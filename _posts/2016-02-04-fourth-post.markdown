@@ -2,8 +2,6 @@
 layout: post
 title:  "Fourth post"
 date:   2016-02-04
-categories: jekyll technology
-tags: css
 
 # Author.
 author: Airraya Group
