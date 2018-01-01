@@ -9,7 +9,6 @@ github_username:  vcaldas
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -17,7 +16,7 @@ plugins:
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 3
 paginate_path: 'page:num/'
 comments: true
 excerpt_separator: <!-- more -->
