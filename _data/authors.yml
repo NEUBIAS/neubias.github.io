@@ -1,0 +1,21 @@
+# Authors
+
+Victor Caldas:
+  name        : "Victor Caldas"
+  uri         : "http://victorcaldas.com"
+  email       : "v.arminicaldas@vu.nl"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  twitter     : "vcalds"
+  google_plus : "BillyRick"
+
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  email       : "cornelius@thewhip.com"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo.jpg"
+  twitter     : "rhymeswithsackit"
+  google_plus : "CorneliusFiddlebone"
+
+
+  # Add your name by just copying and pasting one of the options above. Be careful with identation.
