@@ -9333,9 +9333,31 @@ a.text-dark:focus, a.text-dark:hover {
 .fa.fa-pull-right {
   margin-left: .3em; }
 
-/*
- * Globals
- */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #4c4c4c;
+  background-image: url("http://eubias.org/NEUBIAS/wp-content/uploads/2016/07/NEUBIAS_circle_color_dark_background.png");
+  background-position: right;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed; }
+
+.main {
+  background-color: #FCFCFC; }
+
+.blog-post {
+  background-color: #FCFFcC; }
+
+.sidebar-module {
+  background-color: #FFCdFC; }
+
+.blog-masthead {
+  background-color: #3F5158; }
+
+.container-navbar {
+  padding-right: 0px;
+  padding-left: 0px; }
+
 @media (min-width: 48em) {
   html {
     font-size: 18px; } }
@@ -9370,8 +9392,9 @@ h6,
  * Masthead for nav
  */
 .blog-masthead {
-  margin-bottom: 3rem;
-  background-color: #428bca;
+  /*margin-top: 0.5rem;*/
+  /*margin-bottom: 0.5rem;*/
+  background-color: #343538;
   -webkit-box-shadow: inset 0 -0.1rem 0.25rem rgba(0, 0, 0, 0.1);
           box-shadow: inset 0 -0.1rem 0.25rem rgba(0, 0, 0, 0.1); }
 
@@ -9408,7 +9431,7 @@ h6,
  * Blog name and description
  */
 .blog-header {
-  padding-bottom: 1.25rem;
+  padding-bottom: 1.9rem;
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee; }
 
@@ -9470,7 +9493,7 @@ h6,
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #2F3033;
   border-top: .05rem solid #e5e5e5; }
 
 .blog-footer p:last-child {
