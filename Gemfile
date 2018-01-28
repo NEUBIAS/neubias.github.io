@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-
+#
+ruby '2.4.0'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -25,6 +26,8 @@ gem "jekyll-paginate"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "rake"
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
