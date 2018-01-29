@@ -19,6 +19,7 @@ body {
 
 .main{
   background-color: #FCFCFC;
+  padding-top: 1rem;
 }
 
 .blog-post{
@@ -40,6 +41,14 @@ background-color: #FFCdFC
   padding-right: 0px;
   padding-left: 0px;
 }
+
+.navbar{
+    padding-top: 0rem;
+    padding-right: 10rem;
+    padding-bottom: 0rem;
+    padding-left: 10rem;
+}
+
 
 
 
@@ -198,3 +207,25 @@ h6,
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+.header--interior {
+    border-bottom-width: 7px;
+    border-bottom-color: #FF7176;
+    -webkit-box-shadow: inset 0 -2px 0 0 rgba(255,255,255,0.3);
+    box-shadow: inset 0 -2px 0 0 rgba(255,255,255,0.3);
+}
+
+.header--interior {
+    border-bottom-style: solid;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
