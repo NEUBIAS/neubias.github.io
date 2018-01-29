@@ -2,7 +2,7 @@
 layout: post
 title:  "Eleventh post"
 date:   2016-02-11
-category: technology
+category: Tutorial
 tags: [css, html]
 
 # Author.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Seventh post"
 date:   2016-02-07
-category: technology
+category: Algorithm
 tags: [octopress, jekyll]
 
 # Author.

@@ -28,6 +28,7 @@
 						{% endfor %} 
 					</div>
 
+
 					
 				<div class="pagination">
 					  <ul>
@@ -36,7 +37,7 @@
 						  {% if paginator.previous_page == 1 %}
 							<li><a href="">Previous</a></li>
 						  {% else %}
-							<li><a href="page{{ paginator.previous_page }}">Previous</a></li>
+							<li><a href="/page{{ paginator.previous_page }}">Previous</a></li>
 						  {% endif %}
 
 						{% else %}

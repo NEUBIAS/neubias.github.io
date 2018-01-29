@@ -2,8 +2,8 @@
 layout: post
 title:  "first post"
 date:   2016-02-01
-categories: jekyll technology
-tags: css html hosting openshift wordpress
+categories: Tutorial
+tags: css html hosting openshift neubias
 author: Victor Caldas
 ---
 

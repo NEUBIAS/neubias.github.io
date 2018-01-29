@@ -29,6 +29,13 @@ With that strategy, developers and contributors will have independed access and 
 
 	For now, you can send me the text and I will publish.
 
+- List of current categories.
+1. Tutorials
+2. Algorithm
+3. Papers
+
+** Avoid creating unecessary categories! **
+
 
 
 ----
