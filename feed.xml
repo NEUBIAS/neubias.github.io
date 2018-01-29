@@ -5,8 +5,8 @@
     <description>The blog of the Network of European Bio Image Analysts.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Jan 2018 11:04:20 +0000</pubDate>
-    <lastBuildDate>Sun, 28 Jan 2018 11:04:20 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2018 23:26:04 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2018 23:26:04 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -41,15 +41,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/technology/2016/02/11/eleventh.html</link>
-        <guid isPermaLink="true">/technology/2016/02/11/eleventh.html</guid>
+        <link>/tutorial/2016/02/11/eleventh.html</link>
+        <guid isPermaLink="true">/tutorial/2016/02/11/eleventh.html</guid>
         
         <category>css</category>
         
         <category>html</category>
         
         
-        <category>technology</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -67,15 +67,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/technology/2016/02/09/tenth.html</link>
-        <guid isPermaLink="true">/technology/2016/02/09/tenth.html</guid>
+        <link>/paper/2016/02/09/tenth.html</link>
+        <guid isPermaLink="true">/paper/2016/02/09/tenth.html</guid>
         
         <category>css</category>
         
         <category>html</category>
         
         
-        <category>technology</category>
+        <category>Paper</category>
         
       </item>
     
@@ -93,15 +93,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/technology/2016/02/09/nineth.html</link>
-        <guid isPermaLink="true">/technology/2016/02/09/nineth.html</guid>
+        <link>/news/2016/02/09/nineth.html</link>
+        <guid isPermaLink="true">/news/2016/02/09/nineth.html</guid>
         
         <category>journey</category>
         
         <category>jekyll</category>
         
         
-        <category>technology</category>
+        <category>News</category>
         
       </item>
     
@@ -127,7 +127,7 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
         <category>css</category>
         
         
-        <category>Random Topic</category>
+        <category>Paper</category>
         
       </item>
     
@@ -145,15 +145,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/technology/2016/02/07/seventh.html</link>
-        <guid isPermaLink="true">/technology/2016/02/07/seventh.html</guid>
+        <link>/algorithm/2016/02/07/seventh.html</link>
+        <guid isPermaLink="true">/algorithm/2016/02/07/seventh.html</guid>
         
         <category>octopress</category>
         
         <category>jekyll</category>
         
         
-        <category>technology</category>
+        <category>Algorithm</category>
         
       </item>
     
@@ -171,13 +171,13 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/education/writing/2016/02/06/sixth-post.html</link>
-        <guid isPermaLink="true">/education/writing/2016/02/06/sixth-post.html</guid>
+        <link>/tutorial/news/2016/02/06/sixth-post.html</link>
+        <guid isPermaLink="true">/tutorial/news/2016/02/06/sixth-post.html</guid>
         
         
-        <category>education</category>
+        <category>Tutorial</category>
         
-        <category>writing</category>
+        <category>News</category>
         
       </item>
     
@@ -195,15 +195,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/technology/2016/02/05/fifth.html</link>
-        <guid isPermaLink="true">/technology/2016/02/05/fifth.html</guid>
+        <link>/tutorial/2016/02/05/fifth.html</link>
+        <guid isPermaLink="true">/tutorial/2016/02/05/fifth.html</guid>
         
         <category>holiday</category>
         
         <category>jekyll</category>
         
         
-        <category>technology</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -221,15 +221,15 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/jekyll/technology/2016/02/04/fourth-post.html</link>
-        <guid isPermaLink="true">/jekyll/technology/2016/02/04/fourth-post.html</guid>
+        <link>/tutorial/algorithm/2016/02/04/fourth-post.html</link>
+        <guid isPermaLink="true">/tutorial/algorithm/2016/02/04/fourth-post.html</guid>
         
         <category>css</category>
         
         
-        <category>jekyll</category>
+        <category>Tutorial</category>
         
-        <category>technology</category>
+        <category>Algorithm</category>
         
       </item>
     
@@ -247,11 +247,11 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/science/2016/02/03/third-post.html</link>
-        <guid isPermaLink="true">/science/2016/02/03/third-post.html</guid>
+        <link>/tutorial/2016/02/03/third-post.html</link>
+        <guid isPermaLink="true">/tutorial/2016/02/03/third-post.html</guid>
         
         
-        <category>science</category>
+        <category>Tutorial</category>
         
       </item>
     
