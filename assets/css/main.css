@@ -3473,6 +3473,10 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
+.fa-apple:before {
+  content: "";
+}
+
 .fa-toggle-left:before {
   content: "";
 }
@@ -3855,4 +3859,19 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
   .display-4 {
     font-size: 3rem;
   }
+}
+
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  padding: 15px;
+  width: auto;
 }
