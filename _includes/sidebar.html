@@ -13,26 +13,6 @@
             </ul>
                 </div>
 
-                <!-- Blog Categories -->
-                <div class="well">
-                    <h4><a href="/categories.html {{ prepend: site.baseurl}}"> Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                {% for cat in site.categories %}
-                {% assign cat_name = cat | first %}
-                {% assign cat_size = cat | last | size %}
-                {% assign cat_slug = cat_name | slugify  %}
-                  <a class="bold" href="/category/{{cat_slug | prepend: site.baseurl}}">
-                    {{cat_name}} ({{cat_size}})
-                  </a>
-                        </div>
-                        <div class="col-lg-6">
-                          {% endfor %}
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- end -->
           <div class="sidebar-module">
           <!-- tags widget -->
                 <div class="well">
