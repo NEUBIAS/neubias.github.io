@@ -1,40 +1,26 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-
-      
-
-        <a class="navbar-brand"" href="/"> <img src="/img/icons.ico/apple-touch-icon-iphone-60x60.png" class="img-responsive">NEUBIAS Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+    <img src="/img/icons.ico/NEUBIAS_square_color.svg" width="40" height="40" class="d-inline-block align-center" alt="">
+    NEUBIAS 
+  </a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample07">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-          <!--   <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li> -->
-            <li class="nav-item active dropdown">
-              <a class="nav-link dropdown-toggle" href="/categories.html {{ prepend: site.baseurl}}" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown07">
-              {% for cat in site.categories %}
-                {% assign cat_name = cat | first %}
-                {% assign cat_size = cat | last | size %}
-                {% assign cat_slug = cat_name | slugify  %}
-                  <a class="dropdown-item" href="/category/{{cat_slug | prepend: site.baseurl}}">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown ">
+            <ul class="navbar-nav ">
+                <li class="nav-item active dropdown ">
+                    <a class="nav-link dropdown-toggle " href="" id="navbarDropdownMenuLink " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+          Categories
+        </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink ">
+                        {% for cat in site.categories %} {% assign cat_name = cat | first %} {% assign cat_size = cat | last | size %} {% assign cat_slug = cat_name | slugify %}
+                        <a class="dropdown-item " href="/category/{{cat_slug | prepend: site.baseurl}} ">
                     {{cat_name}} ({{cat_size}})
-                  </a>
-                          {% endfor %}
-               
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
+                  </a> {% endfor %}
+                    </div>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
-
+    </div>
+</nav>
