@@ -3,27 +3,80 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
+           
 
-<div itemscope itemtype="http://schema.org/Person">
 
-  {% if author.avatar %}
-    <div class="author__avatar">
-      {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
-      {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
+<div class="card">
+<!--Author box-->
+<div class="author-box">
+    <!--Name-->
+    <div class="row">
+        <!--Avatar-->
+        <div class="col-12 col-sm-2">
+          {% if author.avatar %}
+             <div class="author__avatar">
+                 {% if author.avatar contains "://" %}
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+                 {% else %}
+                <img src="{{ author.avatar | absolute_url }}" class="img-fluid rounded-circle z-depth-2 alt="{{ author.name }}" itemprop="image">
+              {% endif %}
+          </div>
+
       {% endif %}
-    </div>
-  {% endif %}
 
-  <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
-    {% if author.bio %}
-      <p class="author__bio" itemprop="description">
-        {{ author.bio }}
-      </p>
-    {% endif %}
-  </div>
+
+        </div>
+        <!--Author Data-->
+        <div class=" col-12 col-sm-10">
+            <p><strong>{{ author.name}}</strong></p>
+
+            <div class="personal-sm">
+               {% if author.uri %}
+                <a href="{{ author.uri }}" class="email-ic"><i class="fa fa-home"> </i></a>
+                {% endif %}
+
+                <a class="fb-ic"><i class="fa fa-facebook"> </i></a>
+
+
+                
+                {% if author.twitter %}
+                <a href="https://twitter.com/{{ author.twitter }}" class="tw-ic"><i class="fa fa-twitter"> </i></a>
+                {% endif %}
+
+
+                <a class="gplus-ic"><i class="fa fa-google-plus"> </i></a>
+
+
+
+                <a class="li-ic"><i class="fa fa-linkedin"> </i></a>
+
+
+
+
+
+                {% if author.email %}
+                <a class="email-ic" href="mailto:{{ author.email }}"><i class="fa fa-envelope-o"> </i></a>
+                 {% endif %}
+
+
+
+
+                
+            </div>
+          
+            <div class="author__content">
+              {% if author.bio %}
+                  <p class="author__bio" itemprop="description">
+                  {{ author.bio }}
+                   </p>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<!--/.Author box-->
+</div>
+
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
@@ -42,14 +95,7 @@
         </li>
       {% endif %}
 
-      {% if author.email %}
-        <li>
-          <a href="mailto:{{ author.email }}">
-            <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-          </a>
-        </li>
-      {% endif %}
+      
 
       {% if author.keybase %}
         <li>
