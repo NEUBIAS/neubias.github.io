@@ -5,9 +5,44 @@
     <description>The blog of the Network of European Bio Image Analysts.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jan 2018 19:47:07 +0000</pubDate>
-    <lastBuildDate>Tue, 30 Jan 2018 19:47:07 +0000</lastBuildDate>
+    <pubDate>Tue, 30 Jan 2018 23:05:50 +0000</pubDate>
+    <lastBuildDate>Tue, 30 Jan 2018 23:05:50 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Two success training stories of NEUBIAS</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/img/posts/Nuno-300x225.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Nuno Pimpão Martins&lt;/h2&gt;
+
+&lt;p&gt;Instituto Gulbenkian de Ciência 
+Bioimaging Unit&lt;/p&gt;
+
+&lt;p&gt;Being a trainee was a great opportunity to learn new techniques, get to know some image analysis tools and concepts and, best of all, it was a great way to meet great experienced people doing image analysis. I was able to get helpful input for some issues I had with my own data and got very good ideas on how to analyse it in a better way.
+&lt;!-- more --&gt; Due to being a bit more comfortable with some of the Imagej/Fiji tools and exercises during the school, I was able to help other trainees which had less experience. This lead to further help the network and the future trainees by being a trainer in the following school for Early Career Investigators (ECI) in Oeiras, where I gave an introduction to ImageJ macros and functions. The school in Oeiras went very well and the feedback from the trainees was very good, so I was invited to co-organize the next school in Gothenburg for the ECI. Both being a trainee and a trainer have helped me immensely for my current job because I was able to learn new tools and get even more comfortable with the ones I already know, allowing me to better help my colleagues and all the users from our facility at their image analysis and on how to better analyse and answer their questions. In addition, Neubias network introduced me to a lot of interesting people with a lot of experience in imagej analysis, giving me great advice and ideas on how to better do it, which will allow me to better do my job at the facility and my future research.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Anna Klemm&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/posts/anna.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ludwig-Maximilians-University
+Biomedical Center Munich
+Core Facility Bioimaging&lt;/p&gt;
+
+&lt;p&gt;After joining the Core Facility Bioimaging at the BMC, LMU Munich as a Bioimage Analyst, I was searching for opportunities to learn more about bioimage analysis and to network. I therefore joined as a participant in the Training School for Facility Staffs in Barcelona (TS1) and in the Training School for Bioimage Analysts in Oeiras (TS3). Both workshops were excellent. I had the opportunity to learn about image analysis workflows using a variety of software, to validate and deepen knowledge that I had before learned only on my own, and to create a network to other Bioimage Analysts. In September 2017 I was then teaching in the Early Career Investigators School in Gothenburg (TS4). The knowledge I gained – in the courses or by the interactions created in the courses – definitely helps me with my day-to-day image analysis tasks at the Core Facility. I got also a lot of material and inspirations for the local bioimage analysis courses that I am teaching. The Neubias spirit is awesome –  I recommend the Neubias courses to anyone doing Bioimage Analysis. I think they are the most efficient way to learn about new workflows and to network.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+        <link>/news/2017/10/31/two-training-stories-of-nebias.html</link>
+        <guid isPermaLink="true">/news/2017/10/31/two-training-stories-of-nebias.html</guid>
+        
+        <category>neubias</category>
+        
+        <category>stories</category>
+        
+        
+        <category>News</category>
+        
+      </item>
     
       <item>
         <title>Welcome to NeuBIAS blog!</title>
@@ -230,28 +265,6 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
         <category>Tutorial</category>
         
         <category>Algorithm</category>
-        
-      </item>
-    
-      <item>
-        <title>Third post</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://placehold.it/250x150&quot; alt=&quot;picture&quot; /&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices porta ultrices. Nulla gravida commodo aliquet. Quisque tincidunt enim quis odio vestibulum, et luctus ipsum lacinia. Cras malesuada sit amet erat vitae porttitor. Duis vitae mollis eros. Vestibulum eget tortor sodales, ullamcorper odio ac, tincidunt felis. Nunc interdum, mauris vitae ornare bibendum, risus libero aliquam ex, cursus feugiat mi libero in nulla. Nullam vel pulvinar ante. Vivamus vitae est aliquet, porttitor eros ut, facilisis erat. Sed malesuada nibh odio, at egestas libero commodo vitae. Integer laoreet lorem ac iaculis fermentum.
-Praesent sodales viverra purus non semper. Maecenas eu convallis neque. Integer velit nunc, facilisis vel nisi in, semper pretium lorem. &lt;!-- more --&gt;
-Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod dolor, non laoreet mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.&lt;/p&gt;
-
-&lt;p&gt;Praesent sodales viverra purus non semper. Maecenas eu convallis neque. Integer velit nunc, facilisis vel nisi in, semper pretium lorem. Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod dolor, non laoreet mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum metus lorem, dapibus ut purus ac, bibendum vulputate metus. Sed a lorem enim. Ut in pharetra dui.&lt;/p&gt;
-
-&lt;p&gt;Etiam ultrices orci a risus fringilla, eu molestie elit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam sed metus nulla. Nam vel aliquet enim. Pellentesque elementum, libero at vulputate cursus, velit turpis tempor neque, quis pellentesque turpis mi non est. Fusce tristique imperdiet fringilla. Integer tristique nibh imperdiet lacus volutpat, vitae tempor nulla efficitur. Nam ipsum ipsum, semper ut tellus eget, venenatis imperdiet augue. Nulla facilisi. Aenean non nisl eget justo efficitur bibendum. Quisque vel risus est. Cras id quam velit.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/2016/02/03/third-post.html</link>
-        <guid isPermaLink="true">/tutorial/2016/02/03/third-post.html</guid>
-        
-        
-        <category>Tutorial</category>
         
       </item>
     
