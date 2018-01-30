@@ -1,73 +1,45 @@
-<!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Blog Post Content Column -->
-                <!-- Blog Post -->
-                	<div class="post-list" style="list-style-type: none;">
-						{% for post in paginator.posts %} 	
-							<h2>
-								<img class="title-image" src="{{ "/img/icons.ico/apple-touch-icon-iphone-60x60.png" | prepend: site.baseurl }}"/>
-								<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-							</h2>
-							<div class="author" style="margin-top: -10px;">Posted by
-								<i class="fa fa-user"></i><a href="http://www.airrayagroup.com/"> {{ post.author}}</a>
-								<span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-							</div>
-							<div class="excerpt">{{ post.excerpt }}</div>
-							<div class="readmore" style="float: left;">
-								{% if post.content | post_contains_excerpt_tag %}
-									<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-								{% endif %}
-							</div>								
-					</div>
-					<hr>
-						
-					<div class="post-list" style="list-style-type: none;">			
-						{% endfor %} 
-					</div>
-
-
-					
-				<div class="pagination">
-					  <ul>
-						{% if paginator.previous_page %}
-
-						  {% if paginator.previous_page == 1 %}
-							<li><a href="">Previous</a></li>
-						  {% else %}
-							<li><a href="/page{{ paginator.previous_page }}">Previous</a></li>
-						  {% endif %}
-
-						{% else %}
-						  <li><span class="disabled">Previous</span></li>
-						{% endif %}
-
-						{% if paginator.page == 1 %}
-						  <li><span class="active">1</span></li>
-						{% else %}
-						  <li><a href="">1</a></li>
-						{% endif %}
-
-						{% for count in (2..paginator.total_pages) %}
-
-						  {% if count == paginator.page %}
-							<li><span class="active">{{ count }}</span></li>
-						  {% else %}
-							<li><a href="/page{{ count }}">{{ count }}</a></li>
-						  {% endif %}
-						{% endfor %}
-
-						{% if paginator.next_page %}
-						  <li><a href="/page{{ paginator.next_page }}">Next</a></li>
-						{% else %}
-						  <li><span class="disabled">Next</span></li>
-						{% endif %}
-					  </ul>
-					</div>
-
+<!-- Blog Post -->
+<div class="post-list" style="list-style-type: none;">
+    {% for post in paginator.posts %} {% if post.author and site.data.authors[post.author] %} {% assign author = site.data.authors[post.author] %} {% else %} {% assign author = site.author %} {% endif %}
+    <!-- /.blog-post -->
+    <div class="blog-post">
+        <h2 class="blog-post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h2>
+        <div class="blog-post-meta" style="margin-top: -10px;">Posted by
+            <i class="fa fa-user"></i><a> {{author.name}}</a>
+            <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
-        <!-- /.row -->
-       <hr>
-   </div>
+        <div class="excerpt">{{ post.excerpt }}</div>
+        <div class="readmore" style="float: left;">
+            {% if post.content | post_contains_excerpt_tag %}
+            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a> {% endif %}
+        </div>
+    </div>
+</div>
+<hr>
+<div class="post-list" style="list-style-type: none;">
+    {% endfor %}
+</div>
+<!-- Pagination  -->
+<nav aria-label="...">
+    <ul class="pagination">
+        {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+        <li class="page-item"><a class="page-link" href="/" tabindex="-1">Previous</a></li>
+        {% else %}
+        <li class="page-item"><a class="page-link" href="/page{{ paginator.previous_page }}" tabindex="-1">Previous</a></li>
+        {% endif %} {% else %}
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        {% endif %} {% if paginator.page == 1 %}
+        <li class="page-item active"><a class="page-link" href="/">1</a></li>
+        {% else %}
+        <li class="page-item"><a class="page-link" href="/">1</a></li>
+        {% endif %} {% for count in (2..paginator.total_pages) %} {% if count == paginator.page %}
+        <li class="page-item active"><a class="page-link" href="#">{{count}} <span class="sr-only">(current)</span></a></li>
+        {% else %}
+        <li class="page-item"><a class="page-link" href="/page{{ count }}">{{ count }}</a></li>
+        {% endif %} {% endfor %} {% if paginator.next_page %}
+        <li class="page-item"><a class="page-link" href="/page{{ paginator.next_page }}">Next</a></li>
+        {% else %}
+        <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        {% endif %}
+    </ul>
+</nav>
