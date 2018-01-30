@@ -9,10 +9,17 @@ layout: default
                 <div class="col-lg-12">
                     <div class="intro-text text-center">
 					<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-					<p class="post-meta">{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">by {{ page.author }}</span></span>{% endif %} <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</time></p>
+
+					{% if page.author and site.data.authors[page.author] %}
+ 						 {% assign author = site.data.authors[page.author] %}
+					{% else %}
+ 						 {% assign author = site.author %}
+					{% endif %}
+
+					<p class="post-meta">{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">by {{ author.name }}</span></span>{% endif %} <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</time></p>
 					</div>
 
-					{% include author-profile.html %}
+					
 					 {{ content }}
 					 <span class='st_sharethis_large' displayText='ShareThis'></span>
 						<span class='st_facebook_large' displayText='Facebook'></span>
@@ -21,7 +28,10 @@ layout: default
 						<span class='st_pinterest_large' displayText='Pinterest'></span>
 						<span class='st_email_large' displayText='Email'></span>
                 </div>
+
                 Category {{ page.categories | join: ', ' }}
+
+                 {% include author-profile.html %}
         </div>
 	</div>
   

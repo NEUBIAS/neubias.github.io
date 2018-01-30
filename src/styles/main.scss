@@ -212,36 +212,8 @@ Responsive navbar-brand image CSS
 }
 .navbar-brand>img {
   width: auto;
-}
-
-
-
-.search-text{
-  margin-top:50px;
-  background-color: #272d33;
-  padding-top:60px;
-  padding-bottom:60px;
-}
-  
-.search-text .input-search{
-  height:45px;
-  width:40%;
-  padding-left:20px;
-    color:#333;
-} 
-
-.search-text .btn-search{
-    background: #da3e44;
-    font-family:Roboto;
-    border:none;
-  color:#FFF;
-  height: 45px;
-    width: 80px;
-}
-
-.search-text h4{
-    color: #FFF;
-    font-weight: 700;
+  max-height: 40px;
+  padding-right: 1rem;
 }
 
 

@@ -4,7 +4,7 @@ title:  "first post"
 date:   2016-02-01
 categories: Tutorial
 tags: css html hosting openshift neubias
-author: Victor Caldas
+author: vcaldas
 ---
 
 ![picture](https://placehold.it/250x150)

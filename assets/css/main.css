@@ -141,10 +141,6 @@ img {
   border-style: none;
 }
 
-svg:not(:root) {
-  overflow: hidden;
-}
-
 a,button,[role="button"],input:not([type="range"]),label {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -1337,13 +1333,6 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
   color: #868e96;
 }
 
-.nav-fill .nav-item {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  text-align: center;
-}
-
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -1993,10 +1982,6 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
   border-bottom-left-radius: 0.25rem !important;
 }
 
-.rounded-circle {
-  border-radius: 50% !important;
-}
-
 .rounded-0 {
   border-radius: 0 !important;
 }
@@ -2214,22 +2199,6 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
   -webkit-clip-path: inset(50%);
   clip-path: inset(50%);
   border: 0;
-}
-
-.w-25 {
-  width: 25% !important;
-}
-
-.w-50 {
-  width: 50% !important;
-}
-
-.w-75 {
-  width: 75% !important;
-}
-
-.w-100 {
-  width: 100% !important;
 }
 
 .h-25 {
@@ -3270,14 +3239,6 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-plus-circle:before {
-  content: "";
-}
-
-.fa-info-circle:before {
-  content: "";
-}
-
 .fa-expand:before {
   content: "";
 }
@@ -3394,14 +3355,6 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-circle-o:before {
-  content: "";
-}
-
-.fa-circle:before {
-  content: "";
-}
-
 .fa-github-alt:before {
   content: "";
 }
@@ -3478,20 +3431,8 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-google-plus-circle:before {
-  content: "";
-}
-
 .fa-fa:before {
   content: "";
-}
-
-.fa-user-circle:before {
-  content: "";
-}
-
-.fa-user-circle-o:before {
-  content: "";
 }
 
 .fa-user-o:before {
@@ -3790,34 +3731,8 @@ Responsive navbar-brand image CSS
 
 .navbar-brand > img {
   width: auto;
-}
-
-.search-text {
-  margin-top: 50px;
-  background-color: #272d33;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.search-text .input-search {
-  height: 45px;
-  width: 40%;
-  padding-left: 20px;
-  color: #333;
-}
-
-.search-text .btn-search {
-  background: #da3e44;
-  font-family: Roboto;
-  border: none;
-  color: #FFF;
-  height: 45px;
-  width: 80px;
-}
-
-.search-text h4 {
-  color: #FFF;
-  font-weight: 700;
+  max-height: 40px;
+  padding-right: 1rem;
 }
 
 .footer-bs {
