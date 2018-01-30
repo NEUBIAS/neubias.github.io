@@ -17,5 +17,13 @@ Cornelius Fiddlebone:
   twitter     : "rhymeswithsackit"
   google_plus : "CorneliusFiddlebone"
 
+neubias:
+  name        : "Neubias Admin"
+  email       : "cornelius@thewhip.com"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo.jpg"
+  twitter     : "rhymeswithsackit"
+  google_plus : "CorneliusFiddlebone"
+
 
   # Add your name by just copying and pasting one of the options above. Be careful with identation.
