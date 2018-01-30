@@ -52,7 +52,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-aside,footer,header,main,nav,section {
+article,aside,footer,header,main,nav,section {
   display: block;
 }
 
@@ -3240,14 +3240,6 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-share-square-o:before {
-  content: "";
-}
-
-.fa-share:before {
-  content: "";
-}
-
 .fa-expand:before {
   content: "";
 }
@@ -3258,10 +3250,6 @@ a.text-dark:focus,a.text-dark:hover {
 
 .fa-calendar:before {
   content: "";
-}
-
-.fa-random:before {
-  content: "";
 }
 
 .fa-twitter-square:before {
@@ -3384,16 +3372,16 @@ a.text-dark:focus,a.text-dark:hover {
   content: "";
 }
 
-.fa-share-square:before {
-  content: "";
-}
-
 .fa-toggle-up:before {
   content: "";
 }
 
 .fa-apple:before {
   content: "";
+}
+
+.fa-archive:before {
+  content: "";
 }
 
 .fa-toggle-left:before {
@@ -3414,14 +3402,6 @@ a.text-dark:focus,a.text-dark:hover {
 
 .fa-header:before {
   content: "";
-}
-
-.fa-share-alt:before {
-  content: "";
-}
-
-.fa-share-alt-square:before {
-  content: "";
 }
 
 .fa-at:before {
@@ -3736,7 +3716,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
   color: #999;
   text-align: center;
   background-color: #2F3033;
-  border-top: .05rem solid #e5e5e5;
+  border-top: 7px solid #ffb280;
 }
 
 .blog-footer p:last-child {

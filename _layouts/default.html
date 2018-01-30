@@ -16,9 +16,6 @@
    
   
       <div class="row">
-
-        {% include logo.html %}
-
         <div class="col-sm-9 blog-main">
 
        {{ content }}
@@ -27,18 +24,19 @@
 
         <aside class="col-sm-3 ml-sm-auto blog-sidebar"> 
           {% include sidebar.html %}       
-         </aside><!-- /.blog-sidebar -->
+        </aside><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
 
 
-        {% include footer.html %}
+       
 
 
     </main><!-- /.container -->
+     {% include footer.html %}
 
   {% include scripts.html %}
     
   </body>
-  }
+  
 </html>
