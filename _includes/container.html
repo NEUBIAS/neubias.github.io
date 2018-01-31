@@ -2,18 +2,42 @@
 <div class="post-list" style="list-style-type: none;">
     {% for post in paginator.posts %} {% if post.author and site.data.authors[post.author] %} {% assign author = site.data.authors[post.author] %} {% else %} {% assign author = site.author %} {% endif %}
     <!-- /.blog-post -->
+
+
+
     <div class="blog-post">
-        <h2 class="blog-post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h2>
-        <div class="blog-post-meta" style="margin-top: -10px;">Posted by
-            <i class="fa fa-user"></i><a> {{author.name}}</a>
-            <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-        </div>
-        <div class="excerpt">{{ post.excerpt }}</div>
-        <div class="readmore" style="float: left;">
-            {% if post.content | post_contains_excerpt_tag %}
-            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a> {% endif %}
-        </div>
+        <div class="card flex-md-row mb-8 box-shadow">
+
+
+
+            <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary" href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</strong>
+                <h3 class="mb-0">
+                <a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h3>
+                <div class="mb-1 text-muted author-box-intro">
+                    <div class="blog-post-meta" style="margin-top: -10px;">Posted by
+                        <i class="fa fa-user"></i><a> {{author.name}}</a>
+                        <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                    </div>
+                </div>
+
+                 {% if post.teaser == null %} 
+                    <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                {% else %} 
+                   <p class="card-text mb-auto">{{ post.teaser }}</p>
+                {% endif %}
+      
+                    
+                <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+            </div>
+<!--             <img class="card-img-right flex-auto d-none d-md-block" src={{post.card-picture | prepend: site.baseurl}} alt="Card image cap">
+ -->        </div>
     </div>
+
+
+
+
 </div>
 <hr>
 <div class="post-list" style="list-style-type: none;">

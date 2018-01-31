@@ -5,6 +5,8 @@ date:   2017-10-31
 categories: News
 tags: neubias stories
 author: vcaldas
+card-picture: /img/posts/Nuno-300x225.png
+teaser:
 ---
 
 ![picture](/img/posts/Nuno-300x225.png)
