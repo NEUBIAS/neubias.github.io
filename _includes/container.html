@@ -28,11 +28,17 @@
                    <p class="card-text mb-auto">{{ post.teaser }}</p>
                 {% endif %}
       
-                    
-                <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+                
+                    <div class="btn-group">
+                                <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Share Facebook"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Share Twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Share Google"><i class="fa fa-google"></i></a>
+                            </div>
+                            <a>
+                             <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>     
+                             </a>
             </div>
-<!--             <img class="card-img-right flex-auto d-none d-md-block" src={{post.card-picture | prepend: site.baseurl}} alt="Card image cap">
- -->        </div>
+    </div>
     </div>
 
 
