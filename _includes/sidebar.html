@@ -16,18 +16,6 @@
     </ul>
 </div>
 <div class="p-3   mb-3 bg-light rounded">
-    <!-- tags widget -->
-    <div class="well">
-        <h4>Tags</h4>
-        <ul>
-            {% for tag in site.tags %} {% assign tag_name = tag | first %} {% assign tag_size = tag | last | size %} {% assign tag_slug = tag_name | slugify %}
-            <a class="tag-label bold" href="/tag/{{tag_slug | prepend: site.baseurl}}">
-                                    {{tag_name}} ({{tag_size}})
-                                </a> {% endfor %}
-        </ul>
-    </div>
-</div>
-<div class="p-3   mb-3 bg-light rounded">
     <h4 class="font-italic">Elsewhere</h4>
     <ol class="list-unstyled">
         <li><a href="#">GitHub</a></li>
