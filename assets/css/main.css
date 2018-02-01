@@ -2622,44 +2622,6 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
   }
 }
 
-.float-right {
-  float: right !important;
-}
-
-.float-none {
-  float: none !important;
-}
-
-@media (min-width: 576px) {
-  .float-sm-right {
-    float: right !important;
-  }
-
-  .float-sm-none {
-    float: none !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .float-md-right {
-    float: right !important;
-  }
-
-  .float-md-none {
-    float: none !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .float-lg-right {
-    float: right !important;
-  }
-
-  .float-lg-none {
-    float: none !important;
-  }
-}
-
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
@@ -3587,10 +3549,6 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-user:before {
-  content: "";
-}
-
 .fa-home:before {
   content: "";
 }
@@ -3771,10 +3729,6 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-user-md:before {
-  content: "";
-}
-
 .fa-h-square:before {
   content: "";
 }
@@ -3831,10 +3785,6 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-apple:before {
-  content: "";
-}
-
 .fa-archive:before {
   content: "";
 }
@@ -3883,10 +3833,6 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-user-plus:before {
-  content: "";
-}
-
 .fa-500px:before {
   content: "";
 }
@@ -3901,18 +3847,6 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-fa:before,.fa-font-awesome:before {
   content: "";
-}
-
-.fa-user-circle:before {
-  content: "";
-}
-
-.fa-user-circle-o:before {
-  content: "";
-}
-
-.fa-user-o:before {
-  content: "";
 }
 
 .fa-id-card:before {
@@ -4147,10 +4081,6 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
  * Blog posts
  */
 
-.blog-post {
-  margin-bottom: 4rem;
-}
-
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
@@ -4228,11 +4158,6 @@ a.author-social-link.small {
   .author-box {
     text-align: center;
   }
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
 }
 
 .flex-auto {
