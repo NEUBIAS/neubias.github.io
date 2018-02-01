@@ -3,7 +3,7 @@ email: caldas.victor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The blog of the Network of European Bio Image Analysts.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://neubias.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vcaldasv
 github_username:  vcaldas
 
