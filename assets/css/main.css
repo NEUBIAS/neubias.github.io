@@ -2682,6 +2682,22 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
   border: 0;
 }
 
+.w-25 {
+  width: 25% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -3789,6 +3805,10 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-calendar-o:before {
   content: "";
+}
+
+.fa-maxcdn:before {
+  content: "";
 }
 
 .fa-html5:before {
