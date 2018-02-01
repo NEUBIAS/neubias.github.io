@@ -20,17 +20,8 @@
                 {% else %}
                 <p class="card-text mb-auto">{{ post.teaser }}</p>
                 {% endif %}
-                <div class="btn-group">
-                    <a class="btn btn-social btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Facebook"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social btn-twitter" href="http://twitter.com/share?&url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Twitter"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social btn-linkdin" href=" http://www.linkedin.com/shareArticle?url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Linkedin"><i class="fa fa-linkedin"></i></a>
 
-                    <a class="btn btn-social btn-google" href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Google"><i class="fa fa-google-plus"></i></a>
-
-                    <p class="float-right">
-                        <button type="button" class="btn btn-primary btn-sm"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a></button>
-                    </p>
-                </div>
+                {% include poster-social.html %}
             </div>
         </div>
     </div>
@@ -40,26 +31,4 @@
     {% endfor %}
 </div>
 <!-- Pagination  -->
-<nav aria-label="...">
-    <ul class="pagination">
-        {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-        <li class="page-item"><a class="page-link" href="/" tabindex="-1">Previous</a></li>
-        {% else %}
-        <li class="page-item"><a class="page-link" href="/page{{ paginator.previous_page }}" tabindex="-1">Previous</a></li>
-        {% endif %} {% else %}
-        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-        {% endif %} {% if paginator.page == 1 %}
-        <li class="page-item active"><a class="page-link" href="/">1</a></li>
-        {% else %}
-        <li class="page-item"><a class="page-link" href="/">1</a></li>
-        {% endif %} {% for count in (2..paginator.total_pages) %} {% if count == paginator.page %}
-        <li class="page-item active"><a class="page-link" href="#">{{count}} <span class="sr-only">(current)</span></a></li>
-        {% else %}
-        <li class="page-item"><a class="page-link" href="/page{{ count }}">{{ count }}</a></li>
-        {% endif %} {% endfor %} {% if paginator.next_page %}
-        <li class="page-item"><a class="page-link" href="/page{{ paginator.next_page }}">Next</a></li>
-        {% else %}
-        <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
-        {% endif %}
-    </ul>
-</nav>
+{% include pagination.html %}
