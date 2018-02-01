@@ -3,10 +3,10 @@
   <channel>
     <title>NeuBias Blog</title>
     <description>The blog of the Network of European Bio Image Analysts.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Feb 2018 17:16:56 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Feb 2018 17:16:56 +0000</lastBuildDate>
+    <link>https://neubias.github.io/</link>
+    <atom:link href="https://neubias.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 01 Feb 2018 18:11:35 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Feb 2018 18:11:35 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -32,8 +32,8 @@ Core Facility Bioimaging&lt;/p&gt;
 &lt;p&gt;After joining the Core Facility Bioimaging at the BMC, LMU Munich as a Bioimage Analyst, I was searching for opportunities to learn more about bioimage analysis and to network. I therefore joined as a participant in the Training School for Facility Staffs in Barcelona (TS1) and in the Training School for Bioimage Analysts in Oeiras (TS3). Both workshops were excellent. I had the opportunity to learn about image analysis workflows using a variety of software, to validate and deepen knowledge that I had before learned only on my own, and to create a network to other Bioimage Analysts. In September 2017 I was then teaching in the Early Career Investigators School in Gothenburg (TS4). The knowledge I gained – in the courses or by the interactions created in the courses – definitely helps me with my day-to-day image analysis tasks at the Core Facility. I got also a lot of material and inspirations for the local bioimage analysis courses that I am teaching. The Neubias spirit is awesome –  I recommend the Neubias courses to anyone doing Bioimage Analysis. I think they are the most efficient way to learn about new workflows and to network.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
-        <link>/news/2017/10/31/two-training-stories-of-nebias.html</link>
-        <guid isPermaLink="true">/news/2017/10/31/two-training-stories-of-nebias.html</guid>
+        <link>https://neubias.github.io/news/2017/10/31/two-training-stories-of-nebias.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/news/2017/10/31/two-training-stories-of-nebias.html</guid>
         
         <category>neubias</category>
         
@@ -56,8 +56,8 @@ Core Facility Bioimaging&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 23 Oct 2017 18:22:29 +0000</pubDate>
-        <link>/2017/10/23/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/2017/10/23/welcome-to-jekyll.html</guid>
+        <link>https://neubias.github.io/2017/10/23/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/2017/10/23/welcome-to-jekyll.html</guid>
         
         
       </item>
@@ -76,8 +76,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/2016/02/11/eleventh.html</link>
-        <guid isPermaLink="true">/tutorial/2016/02/11/eleventh.html</guid>
+        <link>https://neubias.github.io/tutorial/2016/02/11/eleventh.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/tutorial/2016/02/11/eleventh.html</guid>
         
         <category>css</category>
         
@@ -102,8 +102,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/paper/2016/02/09/tenth.html</link>
-        <guid isPermaLink="true">/paper/2016/02/09/tenth.html</guid>
+        <link>https://neubias.github.io/paper/2016/02/09/tenth.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/paper/2016/02/09/tenth.html</guid>
         
         <category>css</category>
         
@@ -128,8 +128,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/news/2016/02/09/nineth.html</link>
-        <guid isPermaLink="true">/news/2016/02/09/nineth.html</guid>
+        <link>https://neubias.github.io/news/2016/02/09/nineth.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/news/2016/02/09/nineth.html</guid>
         
         <category>journey</category>
         
@@ -154,8 +154,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/algorithm/2016/02/07/seventh.html</link>
-        <guid isPermaLink="true">/algorithm/2016/02/07/seventh.html</guid>
+        <link>https://neubias.github.io/algorithm/2016/02/07/seventh.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/algorithm/2016/02/07/seventh.html</guid>
         
         <category>octopress</category>
         
@@ -180,8 +180,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/news/2016/02/06/sixth-post.html</link>
-        <guid isPermaLink="true">/tutorial/news/2016/02/06/sixth-post.html</guid>
+        <link>https://neubias.github.io/tutorial/news/2016/02/06/sixth-post.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/tutorial/news/2016/02/06/sixth-post.html</guid>
         
         
         <category>Tutorial</category>
@@ -204,8 +204,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/2016/02/05/fifth.html</link>
-        <guid isPermaLink="true">/tutorial/2016/02/05/fifth.html</guid>
+        <link>https://neubias.github.io/tutorial/2016/02/05/fifth.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/tutorial/2016/02/05/fifth.html</guid>
         
         <category>holiday</category>
         
@@ -230,8 +230,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/algorithm/2016/02/04/fourth-post.html</link>
-        <guid isPermaLink="true">/tutorial/algorithm/2016/02/04/fourth-post.html</guid>
+        <link>https://neubias.github.io/tutorial/algorithm/2016/02/04/fourth-post.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/tutorial/algorithm/2016/02/04/fourth-post.html</guid>
         
         <category>css</category>
         
@@ -256,8 +256,8 @@ Sed orci est, pellentesque sit amet volutpat a, tristique in leo. Ut at euismod 
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
-        <link>/tutorial/2016/02/03/third-post.html</link>
-        <guid isPermaLink="true">/tutorial/2016/02/03/third-post.html</guid>
+        <link>https://neubias.github.io/tutorial/2016/02/03/third-post.html</link>
+        <guid isPermaLink="true">https://neubias.github.io/tutorial/2016/02/03/third-post.html</guid>
         
         
         <category>Tutorial</category>
