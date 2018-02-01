@@ -6,6 +6,7 @@ categories: News
 tags: neubias stories
 author: vcaldas
 card-picture: /img/posts/Nuno-300x225.png
+comments: true
 teaser:
 ---
 

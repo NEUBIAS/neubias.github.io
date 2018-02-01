@@ -9,27 +9,22 @@
                 <h3 class="mb-0">
                 <a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h3>
-                 <div class="mb-1 text-muted author-box-intro">
+                <div class="mb-1 text-muted author-box-intro">
                     <div class="blog-post-meta" style="margin-top: -10px;">Posted by <a> {{ author.name }} | </a>
-                        <i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }} 
-                        <a> | </a>
-                         {% include poster-social.html %}
+                        <i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}
+                        <a> | </a> {% include poster-social.html %}
                     </div>
-                    
                 </div>
-
-
                 {% if post.teaser == null %}
                 <p class="card-text mb-auto">{{ post.excerpt }}</p>
                 {% else %}
                 <p class="card-text mb-auto">{{ post.teaser }}</p>
                 {% endif %}
-                    <div class="btn-group">
-                        <p align="right">
-                            <button type="button" class="btn btn-primary btn-sm"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a></button>
-                        </p>
-                    </div>
-                               
+                <div class="btn-group">
+                    <p align="right">
+                        <button type="button" class="btn btn-primary btn-sm"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a></button>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
