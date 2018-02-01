@@ -1,24 +1,16 @@
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}
-{% else %}
-  {% assign author = site.author %}
-{% endif %}
-           
-
-
+{% if page.author and site.data.authors[page.author] %} {% assign author = site.data.authors[page.author] %} {% else %} {% assign author = site.author %} {% endif %}
 <div class="card">
-<!--Author box-->
-<div class="author-box">
-    <!--Name-->
-    <div class="row">
-        <!--Avatar-->
-        <div class="col-9 col-sm-2">
-          {% if author.avatar %}
-             <div class="author__avatar">
-                 {% if author.avatar contains "://" %}
-                <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
-                 {% else %}
-                <img src="{{ author.avatar | absolute_url }}" class="img-fluid rounded-circle z-depth-2 alt="{{ author.name }}" itemprop="image">
+    <!--Author box-->
+    <div class="author-box">
+        <!--Name-->
+        <div class="row">
+            <!--Avatar-->
+            <div class="col-9 col-sm-2">
+                {% if author.avatar %}
+                <div class="author__avatar">
+                    {% if author.avatar contains "://" %}
+                    <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image"> {% else %}
+                    <img src="{{ author.avatar | absolute_url }}" class="img-fluid rounded-circle z-depth-2 alt=" {{ author.name }} " itemprop="image ">
               {% endif %}
           </div>
 
@@ -27,32 +19,32 @@
 
         </div>
         <!--Author Data-->
-        <div class=" col-12 col-sm-10">
+        <div class=" col-12 col-sm-10 ">
             <p><strong>{{ author.name}}</strong></p>
 
-            <div class="personal-sm">
+            <div class="personal-sm ">
                {% if author.uri %}
-                <a href="{{ author.uri }}" class="email-ic"><i class="fa fa-home"> </i></a>
+                <a href="{{ author.uri }}" class="email-ic"><i class="fa fa-home "> </i></a>
                 {% endif %}
                 
                 {% if author.twitter %}
-                <a href="https://twitter.com/{{ author.twitter }}" class="tw-ic"><i class="fa fa-twitter"> </i></a>
+                <a href="https://twitter.com/{{ author.twitter }}" class="tw-ic "><i class="fa fa-twitter "> </i></a>
                 {% endif %}
 
                 {% if author.linkedin %}
-                  <a  href="https://www.linkedin.com/in/{{ author.linkedin }}" class="li-ic"><i class="fa fa-linkedin"> </i></a>
+                  <a  href="https://www.linkedin.com/in/{{ author.linkedin }}" class="li-ic "><i class="fa fa-linkedin "> </i></a>
                 {% endif %}
                 
                 {% if author.email %}
-                <a class="email-ic" href="mailto:{{ author.email }}"><i class="fa fa-envelope-o"> </i></a>
+                <a class="email-ic " href="mailto:{{ author.email }}"><i class="fa fa-envelope-o "> </i></a>
                  {% endif %}
 
                
             </div>
           
-            <div class="author__content">
+            <div class="author__content ">
               {% if author.bio %}
-                  <p class="author__bio" itemprop="description">
+                  <p class="author__bio " itemprop="description ">
                   {{ author.bio }}
                    </p>
               {% endif %}
