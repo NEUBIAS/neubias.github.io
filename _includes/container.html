@@ -2,14 +2,8 @@
 <div class="post-list" style="list-style-type: none;">
     {% for post in paginator.posts %} {% if post.author and site.data.authors[post.author] %} {% assign author = site.data.authors[post.author] %} {% else %} {% assign author = site.author %} {% endif %}
     <!-- /.blog-post -->
-
-
-
     <div class="blog-post">
         <div class="card flex-md-row mb-8 box-shadow">
-
-
-
             <div class="card-body d-flex flex-column align-items-start">
                 <strong class="d-inline-block mb-2 text-primary" href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</strong>
                 <h3 class="mb-0">
@@ -21,29 +15,25 @@
                         <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
                     </div>
                 </div>
-
-                 {% if post.teaser == null %} 
-                    <p class="card-text mb-auto">{{ post.excerpt }}</p>
-                {% else %} 
-                   <p class="card-text mb-auto">{{ post.teaser }}</p>
+                {% if post.teaser == null %}
+                <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                {% else %}
+                <p class="card-text mb-auto">{{ post.teaser }}</p>
                 {% endif %}
-      
-                            
+                <div class="btn-group">
+                    <a class="btn btn-social btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Facebook"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social btn-twitter" href="http://twitter.com/share?&url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Twitter"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social btn-linkdin" href=" http://www.linkedin.com/shareArticle?url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Linkedin"><i class="fa fa-linkedin"></i></a>
 
-                    <div class="btn-group">
-                                <a class="btn btn-social btn-facebook" href="#" data-toggle="tooltip" title="Share Facebook"><i class="fa fa-facebook"></i></a>
-                                <a class="btn btn-social btn-twitter" href="#" data-toggle="tooltip" title="Share Twitter"><i class="fa fa-twitter"></i></a>
-                                <a class="btn btn-social btn-google" href="#" data-toggle="tooltip" title="Share Google"><i class="fa fa-google"></i></a>
-                                
-                                <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>     
-                             </div>
+                    <a class="btn btn-social btn-google" href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" data-toggle="tooltip" title="Share Google"><i class="fa fa-google-plus"></i></a>
+
+                    <p class="float-right">
+                        <button type="button" class="btn btn-primary btn-sm"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a></button>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
 </div>
 <hr>
 <div class="post-list" style="list-style-type: none;">
