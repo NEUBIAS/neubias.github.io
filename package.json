@@ -30,5 +30,7 @@
     "wiredep": "^4.0.0",
     "yargs": "^11.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hoek": "^5.0.3"
+  }
 }
