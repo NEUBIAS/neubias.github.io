@@ -2113,6 +2113,23 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
   margin-bottom: 0;
 }
 
+.list-group-item-action {
+  width: 100%;
+  color: #495057;
+  text-align: inherit;
+}
+
+.list-group-item-action:hover,.list-group-item-action:focus {
+  color: #495057;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.list-group-item-action:active {
+  color: #212529;
+  background-color: #e9ecef;
+}
+
 .list-group-item {
   position: relative;
   display: block;
@@ -2155,9 +2172,31 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
   background-color: #b8daff;
 }
 
+.list-group-item-primary.list-group-item-action:hover,.list-group-item-primary.list-group-item-action:focus {
+  color: #004085;
+  background-color: #9fcdff;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+  color: #fff;
+  background-color: #004085;
+  border-color: #004085;
+}
+
 .list-group-item-success {
   color: #155724;
   background-color: #c3e6cb;
+}
+
+.list-group-item-success.list-group-item-action:hover,.list-group-item-success.list-group-item-action:focus {
+  color: #155724;
+  background-color: #b1dfbb;
+}
+
+.list-group-item-success.list-group-item-action.active {
+  color: #fff;
+  background-color: #155724;
+  border-color: #155724;
 }
 
 .list-group-item-info {
@@ -2165,14 +2204,47 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
   background-color: #bee5eb;
 }
 
+.list-group-item-info.list-group-item-action:hover,.list-group-item-info.list-group-item-action:focus {
+  color: #0c5460;
+  background-color: #abdde5;
+}
+
+.list-group-item-info.list-group-item-action.active {
+  color: #fff;
+  background-color: #0c5460;
+  border-color: #0c5460;
+}
+
 .list-group-item-light {
   color: #818182;
   background-color: #fdfdfe;
 }
 
+.list-group-item-light.list-group-item-action:hover,.list-group-item-light.list-group-item-action:focus {
+  color: #818182;
+  background-color: #ececf6;
+}
+
+.list-group-item-light.list-group-item-action.active {
+  color: #fff;
+  background-color: #818182;
+  border-color: #818182;
+}
+
 .list-group-item-dark {
   color: #1b1e21;
   background-color: #c6c8ca;
+}
+
+.list-group-item-dark.list-group-item-action:hover,.list-group-item-dark.list-group-item-action:focus {
+  color: #1b1e21;
+  background-color: #b9bbbe;
+}
+
+.list-group-item-dark.list-group-item-action.active {
+  color: #fff;
+  background-color: #1b1e21;
+  border-color: #1b1e21;
 }
 
 .tooltip {
@@ -2308,6 +2380,12 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
 
 .rounded-0 {
   border-radius: 0 !important;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 .d-none {
@@ -3681,10 +3759,6 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-copy:before {
-  content: "";
-}
-
 .fa-save:before {
   content: "";
 }
@@ -3805,6 +3879,14 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-git-square:before {
+  content: "";
+}
+
+.fa-git:before {
+  content: "";
+}
+
 .fa-header:before {
   content: "";
 }
@@ -3815,10 +3897,6 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-share-alt-square:before {
   content: "";
-}
-
-.fa-copyright:before {
-  content: "";
 }
 
 .fa-at:before {
@@ -3936,6 +4014,36 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-li.fa-lg {
   left: -1.85714286em;
+}
+
+/* Add a hover effect if you want */
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.btn-fb {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+
+.btn-tw {
+  background: #55ACEE;
+  color: white;
+}
+
+.btn-li {
+  background: #007bb5;
+  color: white;
+}
+
+.btn-git {
+  background: #444444;
+  color: white;
 }
 
 body {

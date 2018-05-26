@@ -55,7 +55,10 @@ You now should have a the folder 'neubias.github.io' available containing all th
 
 Navigate inside the folder and get the gulp packages that will be used:
 
-
+```
+$ git checkout source
+```
+and then:
 ```
 $ npm install
 ```
