@@ -1,9 +1,9 @@
 @import "bootstrap/bootstrap";
 @import "font-awesome/font-awesome";
 @import "academicons/academicons";
-
 @import "variables.scss";
 @import "mixins.scss";
+@import "social-buttons.scss";
 
 
 body {
@@ -265,6 +265,8 @@ a.author-social-link.small {
   -webkit-box-flex: 0;
   flex: 0 0 auto;
 }
+
+
 
 .h-250 { height: 250px; }
 @media (min-width: 768px) {
