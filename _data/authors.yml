@@ -5,9 +5,9 @@ vcaldas:
   uri         : "http://www.victorcaldas.com"
   email       : "v.arminicaldas@vu.nl"
   bio         : "Say something silly."
-  avatar      : "/img/author/r2d2.jpg"
+  avatar      : "/img/author/vcaldas.jpg"
   twitter     : "vcalds"
-  google_plus : "BillyRick"
+  google_plus : ""
 
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"
