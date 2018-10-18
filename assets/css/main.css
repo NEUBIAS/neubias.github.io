@@ -54,7 +54,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-aside,footer,header,main,nav,section {
+article,aside,footer,header,main,nav,section {
   display: block;
 }
 
@@ -133,9 +133,16 @@ a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
-code {
+pre,code {
   font-family: monospace, monospace;
   font-size: 1em;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
 }
 
 img {
@@ -313,7 +320,7 @@ small,.small {
   height: auto;
 }
 
-code {
+code,pre {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -325,6 +332,18 @@ code {
 
 a > code {
   color: inherit;
+}
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
 }
 
 .container {
@@ -3482,6 +3501,15 @@ a.text-dark:hover,a.text-dark:focus {
     text-decoration: underline;
   }
 
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
   img {
     page-break-inside: avoid;
   }
@@ -3616,6 +3644,10 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-remove:before {
+  content: "";
+}
+
 .fa-home:before {
   content: "";
 }
@@ -3676,6 +3708,10 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-forward:before {
+  content: "";
+}
+
 .fa-plus-circle:before {
   content: "";
 }
@@ -3698,6 +3734,14 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-calendar:before {
   content: "";
+}
+
+.fa-comment:before {
+  content: "";
+}
+
+.fa-folder:before {
+  content: "";
 }
 
 .fa-twitter-square:before {
@@ -3748,6 +3792,10 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-files-o:before {
+  content: "";
+}
+
 .fa-save:before {
   content: "";
 }
@@ -3788,8 +3836,16 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-comment-o:before {
+  content: "";
+}
+
 .fa-comments-o:before {
   content: "";
+}
+
+.fa-building-o:before {
+  content: "";
 }
 
 .fa-h-square:before {
@@ -3810,6 +3866,10 @@ a.text-dark:hover,a.text-dark:focus {
 
 .fa-github-alt:before {
   content: "";
+}
+
+.fa-folder-o:before {
+  content: "";
 }
 
 .fa-code:before {
@@ -3848,6 +3908,14 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-linux:before {
+  content: "";
+}
+
+.fa-bug:before {
+  content: "";
+}
+
 .fa-plus-square-o:before {
   content: "";
 }
@@ -3864,12 +3932,28 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-language:before {
+  content: "";
+}
+
+.fa-building:before {
+  content: "";
+}
+
 .fa-git-square:before {
   content: "";
 }
 
 .fa-git:before {
   content: "";
+}
+
+.fa-send:before {
+  content: "";
+}
+
+.fa-send-o:before {
+  content: "";
 }
 
 .fa-header:before {
@@ -3892,8 +3976,16 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
+.fa-facebook-official:before {
+  content: "";
+}
+
 .fa-pinterest-p:before {
   content: "";
+}
+
+.fa-clone:before {
+  content: "";
 }
 
 .fa-500px:before {
@@ -3904,7 +3996,7 @@ a.text-dark:hover,a.text-dark:focus {
   content: "";
 }
 
-.fa-google-plus-circle:before {
+.fa-google-plus-circle:before,.fa-google-plus-official:before {
   content: "";
 }
 
