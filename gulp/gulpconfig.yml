@@ -1,12 +1,14 @@
 #https://github.com/fredericpfisterer/Jekyll-Gulp
+
 browsersync:
   notify: true
   open:   true
   port:   3000
+  proxy: 'localhost:3001'
   server:
     basedir: "_site/"
   xip:    false
-  browser: "Google Chrome"
+  browser: ["firefox"]
 
 clean:
   # The jekyll build dir
