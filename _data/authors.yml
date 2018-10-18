@@ -4,18 +4,10 @@ vcaldas:
   name        : "Victor Caldas"
   uri         : "http://www.victorcaldas.com"
   email       : "v.arminicaldas@vu.nl"
-  bio         : "Say something silly."
+  bio         : ""
   avatar      : "/img/author/vcaldas.jpg"
   twitter     : "vcalds"
   google_plus : ""
-
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
-  email       : "cornelius@thewhip.com"
-  bio         : "I ordered what?"
-  avatar      : "/assets/images/bio-photo.jpg"
-  twitter     : "rhymeswithsackit"
-  google_plus : "CorneliusFiddlebone"
 
 neubias:
   name        : "Neubias Admin"

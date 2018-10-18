@@ -5,7 +5,7 @@ branches:
 node_js:
 - '7'
 before_install:
-- rvm install 2.4.0
+- rvm install 2.4.4
 before_script:
 - npm i -g gulp-cli
 - npm install
