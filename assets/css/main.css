@@ -9315,11 +9315,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: white; }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #4c4c4c;
   /*background-image: url("http://eubias.org/NEUBIAS/wp-content/uploads/2016/07/NEUBIAS_circle_color_dark_background.png"); */
   background-position: right;
-  background-size: auto;
   background-repeat: repeat;
   background-attachment: fixed; }
 
