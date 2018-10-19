@@ -5,8 +5,8 @@
     <description>The blog of the Network of European Bio Image Analysts.</description>
     <link>https://neubias.github.io/</link>
     <atom:link href="https://neubias.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Oct 2018 18:05:26 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Oct 2018 18:05:26 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Oct 2018 09:59:43 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 09:59:43 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -32,29 +32,6 @@ Here we can share the last updates on image analysis, including papers, tools, a
 
 &lt;p&gt;These are just few of many topics you could write about. We need you!&lt;/p&gt;
 
-&lt;h2 id=&quot;why-have-another-communication-channel&quot;&gt;Why have another communication channel?&lt;/h2&gt;
-
-&lt;p&gt;NEUBIAS (Network of Europian Bio Image Analysists) has already a central communication channel, that is the [Neubias official website][neubias-website].&lt;/p&gt;
-
-&lt;p&gt;Postvak INThursday, February 22, 2018 8:05 PM
-Hi Victor,&lt;/p&gt;
-
-&lt;p&gt;Could you prepare a list possible topics that could be written as a blog article? Proposing options is very important to motivate people. For example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;about a recent paper with interesting bioimage analysis&lt;/li&gt;
-  &lt;li&gt;my favorite plugin / package / add-ons&lt;/li&gt;
-  &lt;li&gt;What I think as the problem in bioimage analyst career&lt;/li&gt;
-  &lt;li&gt;my favorite algorithm&lt;/li&gt;
-  &lt;li&gt;a conference report&lt;/li&gt;
-  &lt;li&gt;a report about specific NEUBIAS activity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Save the page to your favorites and stay up to date!&lt;/p&gt;
-
-&lt;p&gt;You are very welcome to submit your &lt;a href=&quot;https://github.com/NeuBIAS/neubias.github.io/issues&quot;&gt;suggestions&lt;/a&gt; and please report the &lt;a href=&quot;https://github.com/NeuBIAS/neubias.github.io/issues&quot;&gt;issues&lt;/a&gt; you may find.&lt;/p&gt;
-
-&lt;p&gt;[neubias-website] : http://eubias.org/NEUBIAS/&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
         <link>https://neubias.github.io/news/2018/10/18/welcome-neubias.html</link>
