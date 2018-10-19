@@ -28,30 +28,3 @@ These are just few of many topics you could write about. We need you!
 
 
 
-
-## Why have another communication channel?
-
-NEUBIAS (Network of Europian Bio Image Analysists) has already a central communication channel, that is the [Neubias official website][neubias-website].
-
-
-
-Postvak INThursday, February 22, 2018 8:05 PM
-Hi Victor,
-
-Could you prepare a list possible topics that could be written as a blog article? Proposing options is very important to motivate people. For example:
-
-- about a recent paper with interesting bioimage analysis
-- my favorite plugin / package / add-ons
-- What I think as the problem in bioimage analyst career
-- my favorite algorithm
-- a conference report
-- a report about specific NEUBIAS activity
-
-
-Save the page to your favorites and stay up to date!
-
-You are very welcome to submit your [suggestions][link-suggestions] and please report the [issues][link-suggestions] you may find.
-
-
-[link-suggestions]: https://github.com/NeuBIAS/neubias.github.io/issues
-[neubias-website] : http://eubias.org/NEUBIAS/
